@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Portfolio website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+New portfolio website built to display the projects developed through my coding journey.
+
+## Deployment
+
+(...)
+
+## Dependencies
+
+- Node.js
+- React
+- [Material UI](https://mui.com/)
+- [yarn](https://classic.yarnpkg.com/en/)
 
 ## Available Scripts
 
