@@ -3,13 +3,6 @@ describe("A user visiting the portfolio", () => {
     cy.visit("/");
   });
 
-  it("is expected to see Welcome header", () => {
-    cy.get("[data-cy=main-header]").should(
-      "contain.text",
-      "Welcome to my portfolio"
-    );
-  });
-
   describe("can see a navbar", () => {
     it("is expected to see navbar element", () => {
       cy.get("[data-cy=navbar]").should("be.visible");
@@ -36,6 +29,19 @@ describe("A user visiting the portfolio", () => {
 
     it("is expected to contain 'GitHub' icon button", () => {
       cy.get("[data-cy=github-nav]").should("be.visible");
+    });
+  });
+
+  describe("can see parallax component", () => {
+    it("is expected to see background image", () => {
+      cy.get("[data-cy=background-image]").should("be.visible");
+    });
+
+    it("is expected to see Welcome header", () => {
+      cy.get("[data-cy=welcome-header]").should(
+        "contain.text",
+        "Welcome to my portfolio"
+      );
     });
   });
 });
