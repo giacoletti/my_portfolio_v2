@@ -1,5 +1,6 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Button } from "@mui/material";
+import { AppBar, Toolbar, Typography, Button, IconButton } from "@mui/material";
+import { LinkedIn, GitHub } from "@mui/icons-material";
 
 const Navbar = () => {
   return (
@@ -27,6 +28,16 @@ const Navbar = () => {
         >
           Projects
         </Button>
+        <IconButton
+          data-cy="linkedin-nav"
+          children={<LinkedIn />}
+          color="inherit"
+        />
+        <IconButton
+          data-cy="github-nav"
+          children={<GitHub />}
+          color="inherit"
+        />
       </Toolbar>
     </AppBar>
   );
