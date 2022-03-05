@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <h1 data-cy="main-header">Welcome to my portfolio</h1>;
+  return (
+    <>
+      <Navbar />
+      <h1 data-cy="main-header">Welcome to my portfolio</h1>
+    </>
+  );
 };
 
 export default App;
