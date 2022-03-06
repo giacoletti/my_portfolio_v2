@@ -4,7 +4,7 @@ import { LinkedIn, GitHub } from "@mui/icons-material";
 
 const Navbar = () => {
   return (
-    <AppBar data-cy="navbar" position="static">
+    <AppBar data-cy="navbar" position="static" sx={{ p: "0 11rem" }}>
       <Toolbar>
         <Typography
           data-cy="header-nav"
