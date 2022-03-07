@@ -2968,6 +2968,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bezier-easing@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bezier-easing/-/bezier-easing-2.1.0.tgz#c04dfe8b926d6ecaca1813d69ff179b7c2025d86"
+  integrity sha1-wE3+i5JtbsrKGBPWn/F5t8ICXYY=
+
 bfj@^7.0.2:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/bfj/-/bfj-7.0.2.tgz#1988ce76f3add9ac2913fd8ba47aad9e651bfbb2"
@@ -7008,6 +7013,13 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+parallax-controller@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/parallax-controller/-/parallax-controller-1.3.4.tgz#967928980a349790ffbfe13b7aaeeed9d0cf1208"
+  integrity sha512-rcrRQ+u/houINYaa5EGpuw5kIhoFIAg/eQRN8Ia10sZN8Uo+568X/hdGpdbumReJf2TBd/fka9UFZbGkGTHhLg==
+  dependencies:
+    bezier-easing "^2.1.0"
+
 param-case@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/param-case/-/param-case-3.0.4.tgz#7d17fe4aa12bde34d4a77d91acfb6219caad01c5"
@@ -7952,6 +7964,13 @@ react-scripts@5.0.0:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
+
+react-scroll-parallax@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-3.0.4.tgz#fa47ebc1b45912cfb17bcfafa8cb4d12ffd62ad2"
+  integrity sha512-afVibxTLBl/CnDCXVSTmQ2JneB2oI1THZw4goePQb+6gvAI+n4AKup7XEdbg90i19g9fbMUcfsN0uMAWiTG+Rg==
+  dependencies:
+    parallax-controller "^1.3.4"
 
 react-transition-group@^4.4.2:
   version "4.4.2"
