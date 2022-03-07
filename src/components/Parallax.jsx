@@ -1,6 +1,6 @@
 import React from "react";
 import { ParallaxBanner } from "react-scroll-parallax";
-import { Typography } from "@mui/material";
+import { Typography, Grid } from "@mui/material";
 
 const Parallax = () => {
   return (
@@ -14,15 +14,24 @@ const Parallax = () => {
       ]}
       style={{ height: 700, position: "relative" }}
     >
-      <Typography
-        data-cy="welcome-header"
-        variant="h3"
-        gutterBottom
-        component="div"
-        sx={{ color: "white", position: "absolute", marginLeft: "100px" }}
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        sx={{marginTop: "300px", ml: "-10%"}}
       >
-        Welcome to my portfolio
-      </Typography>
+        <Grid item sx={{ position: "absolute" }}>
+          <Typography
+            data-cy="welcome-header"
+            variant="h3"
+            gutterBottom
+            component="div"
+            sx={{ color: "white" }}
+          >
+            Welcome to my portfolio
+          </Typography>
+        </Grid>
+      </Grid>
     </ParallaxBanner>
   );
 };
