@@ -44,4 +44,22 @@ describe("A user visiting the portfolio", () => {
       );
     });
   });
+
+  describe("can see main container", () => {
+    it("is expected to see About Me header", () => {
+      cy.get("[data-cy=about-header]").should("contain.text", "About Me");
+    });
+
+    it("is expected to see About Me description", () => {
+      cy.get("[data-cy=about-description]").should("contain.text", "Example text");
+    });
+
+    it("is expected to see Projects header", () => {
+      cy.get("[data-cy=projects-header]").should("contain.text", "Projects");
+    });
+
+    it("is expected to see Contact header", () => {
+      cy.get("[data-cy=contact-header]").should("contain.text", "Contact");
+    });
+  });
 });
