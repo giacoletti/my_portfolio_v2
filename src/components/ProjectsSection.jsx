@@ -7,6 +7,7 @@ const ProjectsSection = () => {
       <Grid item xs={12}>
         <Typography
           data-cy="projects-header"
+          id="projects"
           variant="h3"
           gutterBottom
           component="div"
