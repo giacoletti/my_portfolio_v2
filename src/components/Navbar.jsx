@@ -1,6 +1,7 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, Button, IconButton } from "@mui/material";
 import { LinkedIn, GitHub } from "@mui/icons-material";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -14,13 +15,15 @@ const Navbar = () => {
         >
           Giovanni Iacoletti
         </Typography>
-        <Button
-          data-cy="about-nav"
-          color="inherit"
-          sx={{ textTransform: "capitalize" }}
-        >
-          About Me
-        </Button>
+        <Link to="about" smooth={true}>
+          <Button
+            data-cy="about-nav"
+            color="inherit"
+            sx={{ textTransform: "capitalize" }}
+          >
+            About Me
+          </Button>
+        </Link>
         <Button
           data-cy="projects-nav"
           color="inherit"
