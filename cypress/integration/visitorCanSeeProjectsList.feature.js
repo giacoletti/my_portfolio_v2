@@ -23,11 +23,11 @@ describe("A visitor can see my projects list when scrolls down", () => {
       cy.get("[data-cy=project-image]").should("be.visible");
       cy.get("[data-cy=project-header]").should(
         "contain.text",
-        "Recipe Hub (Client)"
+        "Recipe Hub (API)"
       );
       cy.get("[data-cy=project-description]").should(
         "contain.text",
-        "Social web application platform built to share recipes"
+        "Recipe Hub API built using Ruby on Rails"
       );
     });
   });
