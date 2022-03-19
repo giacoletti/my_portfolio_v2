@@ -3,7 +3,10 @@ import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 
 const ProjectCard = ({ project }) => {
   return (
-    <Card data-cy={`project-card-${project.index}`} sx={{ width: 300 }}>
+    <Card
+      data-cy={`project-card-${project.index}`}
+      sx={{ width: 300, boxShadow: 2 }}
+    >
       <CardMedia
         data-cy="project-image"
         component="img"

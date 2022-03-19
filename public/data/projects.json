@@ -41,7 +41,7 @@
   {
     "name": "Rock Paper Scissor",
     "image": "https://i.ibb.co/GdWJSn8/rps-project-image.jpg",
-    "description": "Rock Paper Scissor challenge issued by Craft Academy Labs.",
+    "description": "Rock Paper Scissor challenge issued by Craft Academy Labs",
     "github": "https://github.com/giacoletti/rps_challenge",
     "deployed": "https://rockpaperscissor-gi.netlify.app/"
   }

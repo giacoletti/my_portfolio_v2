@@ -31,7 +31,7 @@ const MainContainer = () => {
       }}
     >
       <Container>
-        <Grid container rowSpacing={5}>
+        <Grid container rowSpacing={5} columnSpacing={3}>
           <AboutSection />
           <ProjectsSection />
           <ContactSection />
