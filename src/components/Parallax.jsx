@@ -12,7 +12,7 @@ const Parallax = () => {
           speed: -15
         }
       ]}
-      style={{ height: 700, position: "relative" }}
+      style={{ height: 700 }}
     >
       <Grid
         container
@@ -20,7 +20,7 @@ const Parallax = () => {
         justifyContent="center"
         sx={{marginTop: "300px", ml: "-10%"}}
       >
-        <Grid item sx={{ position: "absolute" }}>
+        <Grid item sx={{ zIndex: 5 }}>
           <Typography
             data-cy="welcome-header"
             variant="h3"

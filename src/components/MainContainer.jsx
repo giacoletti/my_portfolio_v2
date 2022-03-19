@@ -13,7 +13,7 @@ const MainContainer = () => {
 
   useEffect(() => {
     const array = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 60; i++) {
       array.push(`This is fake data ${i}`);
     }
     setMockData(array);
@@ -26,7 +26,7 @@ const MainContainer = () => {
         marginLeft: "5%",
         marginTop: "-100px",
         paddingTop: "50px",
-        position: "absolute",
+        position: "relative",
         width: "90%"
       }}
     >
