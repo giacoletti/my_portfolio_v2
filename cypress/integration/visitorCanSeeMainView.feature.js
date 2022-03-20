@@ -1,4 +1,4 @@
-describe("A user visiting the portfolio", () => {
+describe("A visitor visiting the portfolio", () => {
   before(() => {
     cy.visit("/");
   });
@@ -21,6 +21,10 @@ describe("A user visiting the portfolio", () => {
 
     it("is expected to contain 'Projects' button", () => {
       cy.get("[data-cy=projects-nav]").should("contain.text", "Projects");
+    });
+
+    it("is expected to contain 'Contact' button", () => {
+      cy.get("[data-cy=contact-nav]").should("contain.text", "Contact");
     });
 
     it("is expected to contain 'LinkedIn' icon button", () => {
@@ -51,7 +55,10 @@ describe("A user visiting the portfolio", () => {
     });
 
     it("is expected to see About Me description", () => {
-      cy.get("[data-cy=about-description]").should("contain.text", "Example text");
+      cy.get("[data-cy=about-description]").should(
+        "contain.text",
+        "Example text"
+      );
     });
 
     it("is expected to see Projects header", () => {
