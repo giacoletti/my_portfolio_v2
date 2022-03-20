@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography } from "@mui/material";
+import { Grid, Typography, Link } from "@mui/material";
 
 const ContactSection = () => {
   return (
@@ -14,6 +14,14 @@ const ContactSection = () => {
           sx={{ fontWeight: "200" }}
         >
           Contact
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          For any enquiries
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          <Link href="mailto:giacoletti92@gmail.com">
+            giacoletti92@gmail.com
+          </Link>
         </Typography>
       </Grid>
     </>

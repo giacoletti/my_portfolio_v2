@@ -12,6 +12,7 @@ const MainContainer = () => {
         marginLeft: "5%",
         marginTop: "-100px",
         paddingTop: "50px",
+        paddingBottom: "50px",
         position: "relative",
         width: "90%"
       }}
