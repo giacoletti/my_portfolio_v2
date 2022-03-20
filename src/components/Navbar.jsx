@@ -44,11 +44,13 @@ const Navbar = () => {
         </Link>
         <IconButton
           data-cy="linkedin-nav"
+          href="https://www.linkedin.com/in/giovanni-iacoletti/"
           children={<LinkedIn />}
           color="inherit"
         />
         <IconButton
           data-cy="github-nav"
+          href="https://github.com/giacoletti"
           children={<GitHub />}
           color="inherit"
         />

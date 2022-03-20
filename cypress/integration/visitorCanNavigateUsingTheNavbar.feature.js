@@ -34,4 +34,28 @@ describe("A visitor can use the navbar to navigate to the different sections", (
       cy.get("[data-cy=contact-header]").should("be.inViewport");
     });
   });
+
+  describe("can click on LinkedIn icon button to navigate to LinkedIn profile", () => {
+    before(() => {
+      cy.get("[data-cy=linkedin-nav]").click();
+    });
+
+    it("is expected to navigate to Giovanni's LinkedIn profile", () => {
+      cy.url().should(
+        "contain",
+        "https://www.linkedin.com/in/giovanni-iacoletti/"
+      );
+    });
+  });
+
+  describe("can click on GitHub icon button to navigate to GitHub profile", () => {
+    before(() => {
+      cy.visit("/");
+      cy.get("[data-cy=github-nav]").click();
+    });
+
+    it("is expected to navigate to Giovanni's GitHub profile", () => {
+      cy.url().should("contain", "https://github.com/giacoletti");
+    });
+  });
 });
