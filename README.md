@@ -43,3 +43,7 @@ Runs the app with [Cypress](https://www.cypress.io/), the next generation front 
 
 - [How to check if an element is in Viewport in Cypress](https://www.webtips.dev/webtips/cypress/check-if-element-is-in-viewport)
 - [Cypress scroll position assertions](https://codewithhugo.com/cypress-scroll-assertions/)
+
+## Updates/Improvement plans
+
+Needs to be adapted for mobile screens.
