@@ -1,24 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import AboutSection from "./AboutSection";
 import ProjectsSection from "./ProjectsSection";
 import ContactSection from "./ContactSection";
 import { Paper, Container, Grid } from "@mui/material";
 
 const MainContainer = () => {
-  const [mockData, setMockData] = useState([]);
-
-  const mockList = mockData.map((element) => {
-    return <li>{element}</li>;
-  });
-
-  useEffect(() => {
-    const array = [];
-    for (let i = 0; i < 60; i++) {
-      array.push(`This is fake data ${i}`);
-    }
-    setMockData(array);
-  }, []);
-
   return (
     <Paper
       elevation={16}
@@ -36,7 +22,6 @@ const MainContainer = () => {
           <ProjectsSection />
           <ContactSection />
         </Grid>
-        <ul>{mockList}</ul>
       </Container>
     </Paper>
   );
