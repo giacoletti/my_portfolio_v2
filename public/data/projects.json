@@ -3,46 +3,46 @@
     "name": "Recipe Hub (Client)",
     "image": "https://i.ibb.co/m9wGCnC/recipe-hub-client.png",
     "description": "Social web application platform built to share recipes",
-    "github": "https://github.com/CraftAcademy/recipe_hub_client",
-    "deployed": "https://recipe-hub-ca.netlify.app/"
+    "url": "https://recipe-hub-ca.netlify.app/",
+    "github": "https://github.com/giacoletti/recipe_hub_client"
   },
   {
     "name": "Recipe Hub (API)",
     "image": "https://i.ibb.co/nRNb4Dh/recipe-hub-api.png",
     "description": "Recipe Hub API built using Ruby on Rails",
-    "github": "https://github.com/CraftAcademy/recipe_hub_api"
+    "url": "https://github.com/giacoletti/recipe_hub_api"
   },
   {
     "name": "Craft Academy - Final Exam (Client)",
     "image": "https://i.ibb.co/Z1ZwJ8g/final-exam-client.png",
     "description": "Rewrite a vanilla JavaScript website into a React application",
-    "github": "https://github.com/giacoletti/final_exam_client_level_2"
+    "url": "https://github.com/giacoletti/final_exam_client_level_2"
   },
   {
     "name": "Craft Academy - Final Exam (API)",
     "image": "https://i.ibb.co/tLnjhq4/final-exam-api.png",
     "description": "Final exam (API) from the Full Stack Web Developer bootcamp",
-    "github": "https://github.com/giacoletti/final_exam_api_both_levels"
+    "url": "https://github.com/giacoletti/final_exam_api_both_levels"
   },
   {
     "name": "Current Weather App",
     "image": "https://i.ibb.co/XpSkk9s/current-weather-app.png",
     "description": "Weather App built using OpenWeather API and OpenCage API",
-    "github": "https://github.com/giacoletti/open_weather_app_dec_2021",
-    "deployed": "https://currentweather-gi.netlify.app/"
+    "url": "https://currentweather-gi.netlify.app/",
+    "github": "https://github.com/giacoletti/open_weather_app_dec_2021"
   },
   {
     "name": "GitHub Username Search",
     "image": "https://i.ibb.co/b3LHRph/github-search-app.png",
     "description": "Midcourse Exam Challenge issued by Craft Academy",
-    "github": "https://github.com/giacoletti/midcourse_exam_november_2021",
-    "deployed": "https://github-search-gi.netlify.app/"
+    "url": "https://github-search-gi.netlify.app/",
+    "github": "https://github.com/giacoletti/midcourse_exam_november_2021"
   },
   {
     "name": "Rock Paper Scissor",
     "image": "https://i.ibb.co/GdWJSn8/rps-project-image.jpg",
     "description": "Rock Paper Scissor challenge issued by Craft Academy Labs",
-    "github": "https://github.com/giacoletti/rps_challenge",
-    "deployed": "https://rockpaperscissor-gi.netlify.app/"
+    "url": "https://rockpaperscissor-gi.netlify.app/",
+    "github": "https://github.com/giacoletti/rps_challenge"
   }
 ]
