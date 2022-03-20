@@ -7,6 +7,7 @@ const ContactSection = () => {
       <Grid item xs={12}>
         <Typography
           data-cy="contact-header"
+          id="contact"
           variant="h3"
           gutterBottom
           component="div"

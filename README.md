@@ -38,3 +38,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `yarn cypress`
 
 Runs the app with [Cypress](https://www.cypress.io/), the next generation front end testing tool built for the modern web. We address the key pain points developers and QA engineers face when testing modern applications.
+
+## Acknowledgments
+
+- [How to check if an element is in Viewport in Cypress](https://www.webtips.dev/webtips/cypress/check-if-element-is-in-viewport)

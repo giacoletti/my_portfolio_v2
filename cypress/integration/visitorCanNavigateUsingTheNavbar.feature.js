@@ -27,16 +27,11 @@ describe("A visitor can use the navbar to navigate to the different sections", (
 
   describe("can click on 'Contact' button to scroll down its relative section", () => {
     before(() => {
-      cy.get("[data-cy=projects-nav]").click();
+      cy.get("[data-cy=contact-nav]").click();
     });
 
     it("is expected to scroll down to the 'Contact' section", () => {
-      cy.window()
-        .its("scrollY")
-        .should(
-          "equal",
-          Math.trunc(cy.$$("[data-cy=contact-header]").offset().top)
-        );
+      cy.get("[data-cy=contact-header]").should("be.inViewport");
     });
   });
 });

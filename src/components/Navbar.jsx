@@ -33,6 +33,15 @@ const Navbar = () => {
             Projects
           </Button>
         </Link>
+        <Link to="contact" smooth={true}>
+          <Button
+            data-cy="contact-nav"
+            color="inherit"
+            sx={{ textTransform: "capitalize" }}
+          >
+            Contact
+          </Button>
+        </Link>
         <IconButton
           data-cy="linkedin-nav"
           children={<LinkedIn />}
