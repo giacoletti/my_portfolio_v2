@@ -4,7 +4,7 @@ New portfolio website built to display the projects developed through my coding 
 
 ## Deployment
 
-[Giovanni's Portfolio](https://giovanni-iacoletti.netlify.app/)
+[My Portfolio](https://giovanni-iacoletti.netlify.app/)
 
 ## Dependencies
 
