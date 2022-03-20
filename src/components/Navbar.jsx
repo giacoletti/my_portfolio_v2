@@ -1,5 +1,12 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Button, IconButton } from "@mui/material";
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  Button,
+  IconButton,
+  Tooltip
+} from "@mui/material";
 import { LinkedIn, GitHub } from "@mui/icons-material";
 import { Link } from "react-scroll";
 
@@ -42,18 +49,22 @@ const Navbar = () => {
             Contact
           </Button>
         </Link>
-        <IconButton
-          data-cy="linkedin-nav"
-          href="https://www.linkedin.com/in/giovanni-iacoletti/"
-          children={<LinkedIn />}
-          color="inherit"
-        />
-        <IconButton
-          data-cy="github-nav"
-          href="https://github.com/giacoletti"
-          children={<GitHub />}
-          color="inherit"
-        />
+        <Tooltip title="LinkedIn profile">
+          <IconButton
+            data-cy="linkedin-nav"
+            href="https://www.linkedin.com/in/giovanni-iacoletti/"
+            children={<LinkedIn />}
+            color="inherit"
+          />
+        </Tooltip>
+        <Tooltip title="GitHub profile">
+          <IconButton
+            data-cy="github-nav"
+            href="https://github.com/giacoletti"
+            children={<GitHub />}
+            color="inherit"
+          />
+        </Tooltip>
       </Toolbar>
     </AppBar>
   );
