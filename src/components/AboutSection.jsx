@@ -18,7 +18,21 @@ const AboutSection = () => {
       </Grid>
       <Grid item xs={12}>
         <Typography data-cy="about-description" variant="body1" gutterBottom>
-          Example text
+          I'm a Full Stack Web Developer recently graduated from&nbsp;
+          <a
+            href="https://craftacademy.se/english/"
+            style={{ textDecoration: "none" }}
+          >
+            Craft Academy
+          </a>
+          , looking to pursue my dream to work as a developer with the best
+          teams and best environments the IT industry has to offer. Logical
+          problems and challenges always fascinated me, and they pushed me into
+          becoming a software developer. Agile methodologies are my preference,
+          they helped my growth and learning process. I mostly code in
+          JavaScript (React, Next.js, Node.js), I have developed back-end APIs in Ruby on Rails too, but
+          I'm open to new languages and technologies. I look forward to work
+          with people who share my love and dedication for coding.
         </Typography>
       </Grid>
     </>

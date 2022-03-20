@@ -16,7 +16,7 @@ const ContactSection = () => {
           Contact
         </Typography>
         <Typography variant="body1" gutterBottom>
-          For any enquiries
+          For any enquiries, feel free to send me an email
         </Typography>
         <Typography variant="body1" gutterBottom>
           <Link href="mailto:giacoletti92@gmail.com">
