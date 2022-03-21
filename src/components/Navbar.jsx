@@ -12,7 +12,11 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <AppBar data-cy="navbar" position="fixed" sx={{ p: "0 11rem" }}>
+    <AppBar
+      data-cy="navbar"
+      position="fixed"
+      sx={{ p: "0 11rem", backgroundColor: "#023e8a" }}
+    >
       <Toolbar>
         <Typography
           data-cy="header-nav"
