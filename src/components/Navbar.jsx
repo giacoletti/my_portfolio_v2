@@ -12,7 +12,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <AppBar data-cy="navbar" position="static" sx={{ p: "0 11rem" }}>
+    <AppBar data-cy="navbar" position="fixed" sx={{ p: "0 11rem" }}>
       <Toolbar>
         <Typography
           data-cy="header-nav"
@@ -22,7 +22,7 @@ const Navbar = () => {
         >
           Giovanni Iacoletti
         </Typography>
-        <Link to="about" smooth={true}>
+        <Link to="about" smooth={true} offset={-100}>
           <Button
             data-cy="about-nav"
             color="inherit"
@@ -31,7 +31,7 @@ const Navbar = () => {
             About Me
           </Button>
         </Link>
-        <Link to="projects" smooth={true}>
+        <Link to="projects" smooth={true} offset={-100}>
           <Button
             data-cy="projects-nav"
             color="inherit"

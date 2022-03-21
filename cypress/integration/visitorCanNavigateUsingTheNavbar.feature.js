@@ -7,7 +7,7 @@ describe("A visitor can use the navbar to navigate to the different sections", (
   it("is expected to scroll down to the 'About Me' section", () => {
     cy.window()
       .its("scrollY")
-      .should("equal", cy.$$("[data-cy=about-header]").offset().top);
+      .should("equal", cy.$$("[data-cy=about-header]").offset().top - 100);
   });
 
   describe("can click on 'Projects' button to scroll down its relative section", () => {
@@ -20,7 +20,7 @@ describe("A visitor can use the navbar to navigate to the different sections", (
         .its("scrollY")
         .should(
           "equal",
-          Math.trunc(cy.$$("[data-cy=projects-header]").offset().top)
+          Math.trunc(cy.$$("[data-cy=projects-header]").offset().top - 100)
         );
     });
   });

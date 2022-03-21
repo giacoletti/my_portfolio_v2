@@ -55,10 +55,7 @@ describe("A visitor visiting the portfolio", () => {
     });
 
     it("is expected to see About Me description", () => {
-      cy.get("[data-cy=about-description]").should(
-        "contain.text",
-        "Example text"
-      );
+      cy.get("[data-cy=about-description]").should("be.visible");
     });
 
     it("is expected to see Projects header", () => {
