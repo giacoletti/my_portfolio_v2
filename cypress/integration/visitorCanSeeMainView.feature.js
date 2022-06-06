@@ -34,6 +34,10 @@ describe("A visitor visiting the portfolio", () => {
     it("is expected to contain 'GitHub' icon button", () => {
       cy.get("[data-cy=github-nav]").should("be.visible");
     });
+
+    it("is expected to not see mobile menu icon in the navbar", () => {
+      cy.get("[data-cy=mobile-menu-icon]").should("not.exist");
+    });
   });
 
   describe("can see parallax component", () => {
