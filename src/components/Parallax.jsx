@@ -17,16 +17,16 @@ const Parallax = () => {
       <Grid
         container
         direction="row"
-        justifyContent="center"
-        sx={{marginTop: "300px", ml: "-10%"}}
+        justifyContent="left"
+        sx={{ marginTop: "300px" }}
       >
-        <Grid item sx={{ zIndex: 5 }}>
+        <Grid item xs={10} sx={{ zIndex: 5 }}>
           <Typography
             data-cy="welcome-header"
             variant="h3"
             gutterBottom
             component="div"
-            sx={{ color: "white" }}
+            sx={{ color: "white", ml: "10vw" }}
           >
             Welcome to my portfolio
           </Typography>

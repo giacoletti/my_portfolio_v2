@@ -15,7 +15,7 @@ const Navbar = () => {
     <AppBar
       data-cy="navbar"
       position="fixed"
-      sx={{ p: "0 11rem", backgroundColor: "#023e8a" }}
+      sx={{ p: "0 5%", backgroundColor: "#023e8a" }}
     >
       <Toolbar>
         <Typography
