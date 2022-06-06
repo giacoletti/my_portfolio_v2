@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
   return (
     <Card
       data-cy={`project-card-${project.index}`}
-      sx={{ width: 300, boxShadow: 2 }}
+      sx={{ maxWidth: 300, boxShadow: 2 }}
     >
       <CardActionArea href={project.url}>
         <CardMedia

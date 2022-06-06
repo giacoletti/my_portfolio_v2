@@ -22,7 +22,7 @@ const ProjectsSection = () => {
   const projectsList = projects.map((project, index) => {
     project.index = index + 1;
     return (
-      <Grid item key={project.index}>
+      <Grid item xs={12} sm={6} md={4} key={project.index}>
         <ProjectCard project={project} />
       </Grid>
     );
