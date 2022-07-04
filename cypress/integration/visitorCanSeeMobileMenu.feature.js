@@ -83,4 +83,34 @@ describe("A visitor visiting the portfolio on mobile", () => {
       cy.get(".MuiBackdrop-root").click();
     });
   });
+
+  describe("can click on the mobile menu icon and on the LinkedIn icon", () => {
+    before(() => {
+      cy.get("[data-cy=mobile-menu-icon]").click();
+      cy.get("[data-cy=linkedin-menu-item]").click();
+    });
+
+    it("is expected to navigate to my LinkedIn profile", () => {
+      cy.url().should("contain", "https://www.linkedin.com/in/giovanni-iacoletti/");
+    });
+
+    after(() => {
+      cy.go('back');
+    });
+  });
+
+  describe("can click on the mobile menu icon and on the GitHub icon", () => {
+    before(() => {
+      cy.get("[data-cy=mobile-menu-icon]").click();
+      cy.get("[data-cy=github-menu-item]").click();
+    });
+
+    it("is expected to navigate to my GitHub profile", () => {
+      cy.url().should("contain", "https://github.com/giacoletti");
+    });
+
+    after(() => {
+      cy.go('back');
+    });
+  });
 });

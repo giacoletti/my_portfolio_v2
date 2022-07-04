@@ -16,8 +16,7 @@ import MobileDropdownMenu from "./MobileDropdownMenu";
 const Navbar = () => {
   const theme = useTheme();
   const isSmallBreakpoint = useMediaQuery(theme.breakpoints.down("sm"));
-  console.log(theme);
-  console.log(isSmallBreakpoint);
+
   return (
     <AppBar
       data-cy="navbar"

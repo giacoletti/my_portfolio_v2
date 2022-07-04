@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { IconButton, Menu, MenuItem } from "@mui/material";
-import { Menu as MenuIcon } from "@mui/icons-material";
+import { IconButton, Menu, MenuItem, Link as MUILink } from "@mui/material";
+import { Menu as MenuIcon, LinkedIn, GitHub } from "@mui/icons-material";
 import { Link } from "react-scroll";
 
 const MobileDropdownMenu = () => {
@@ -47,6 +47,22 @@ const MobileDropdownMenu = () => {
         <Link to="contact" smooth={true}>
           <MenuItem data-cy="contact-menu-item">Contact</MenuItem>
         </Link>
+        <MUILink href="https://www.linkedin.com/in/giovanni-iacoletti/">
+          <MenuItem
+            data-cy="linkedin-menu-item"
+            sx={{ justifyContent: "center" }}
+          >
+            <LinkedIn />
+          </MenuItem>
+        </MUILink>
+        <MUILink href="https://github.com/giacoletti">
+          <MenuItem
+            data-cy="github-menu-item"
+            sx={{ justifyContent: "center" }}
+          >
+            <GitHub />
+          </MenuItem>
+        </MUILink>
       </Menu>
     </>
   );
