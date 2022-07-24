@@ -9,11 +9,11 @@ describe("A visitor can see my projects list when scrolls down", () => {
       cy.get("[data-cy=project-image]").should("be.visible");
       cy.get("[data-cy=project-header]").should(
         "contain.text",
-        "Recipe Hub (Client)"
+        "Rekindle"
       );
       cy.get("[data-cy=project-description]").should(
         "contain.text",
-        "Social web application platform built to share recipes"
+        "Blog platform built with Next.js, React and Firebase. (Work in progress)"
       );
     });
   });
@@ -23,11 +23,11 @@ describe("A visitor can see my projects list when scrolls down", () => {
       cy.get("[data-cy=project-image]").should("be.visible");
       cy.get("[data-cy=project-header]").should(
         "contain.text",
-        "Recipe Hub (API)"
+        "Recipe Hub (Client)"
       );
       cy.get("[data-cy=project-description]").should(
         "contain.text",
-        "Recipe Hub API built using Ruby on Rails"
+        "Social web application platform built to share recipes"
       );
     });
   });

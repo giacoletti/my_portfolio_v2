@@ -1,5 +1,11 @@
 [
   {
+    "name": "Rekindle",
+    "image": "/images/rekindle.png",
+    "description": "Blog platform built with Next.js, React and Firebase. (Work in progress)",
+    "url": "https://github.com/giacoletti/nextfire_app"
+  },
+  {
     "name": "Recipe Hub (Client)",
     "image": "https://i.ibb.co/m9wGCnC/recipe-hub-client.png",
     "description": "Social web application platform built to share recipes",
@@ -16,13 +22,13 @@
     "name": "Craft Academy - Final Exam (Client)",
     "image": "https://i.ibb.co/Z1ZwJ8g/final-exam-client.png",
     "description": "Rewrite a vanilla JavaScript website into a React application",
-    "url": "https://github.com/giacoletti/final_exam_client_level_2"
+    "url": "https://github.com/giacoletti/final_exam_client_level_2/tree/react_rewrite"
   },
   {
     "name": "Craft Academy - Final Exam (API)",
     "image": "https://i.ibb.co/tLnjhq4/final-exam-api.png",
     "description": "Final exam (API) from the Full Stack Web Developer bootcamp",
-    "url": "https://github.com/giacoletti/final_exam_api_both_levels"
+    "url": "https://github.com/giacoletti/final_exam_api_both_levels/tree/user_can_add_comment"
   },
   {
     "name": "Current Weather App",

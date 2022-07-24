@@ -18,7 +18,7 @@ const AboutSection = () => {
       </Grid>
       <Grid item xs={12}>
         <Typography data-cy="about-description" variant="body1" gutterBottom>
-          I'm a Full Stack Web Developer recently graduated from&nbsp;
+          I'm a Full Stack Web Developer graduated from&nbsp;
           <a
             href="https://craftacademy.se/english/"
             style={{ textDecoration: "none" }}
