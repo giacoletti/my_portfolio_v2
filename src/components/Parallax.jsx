@@ -8,7 +8,7 @@ const Parallax = () => {
       data-cy="background-image"
       layers={[
         {
-          image: "/data/space-background.jpg",
+          image: "/images/space-background.jpg",
           speed: -15
         }
       ]}
