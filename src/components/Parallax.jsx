@@ -26,7 +26,7 @@ const Parallax = () => {
             variant="h3"
             gutterBottom
             component="div"
-            sx={{ color: "white", ml: "10vw" }}
+            sx={{ color: "white", ml: "10vw", textShadow: "0px 0px 0.1em rgba(0,0,0,0.8)" }}
           >
             Welcome to my portfolio
           </Typography>
